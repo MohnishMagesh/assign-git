@@ -2,3 +2,15 @@ What is a gitignore file and what should it include for a Java project?
 What does fast-forward in Git mean?
 Why should you have different branches?
 In a project how many remote Git repositories do you usually have?
+
+Answer 1: .gitignore file tells git which files to ignore while committing to your github repository
+	it is important to put a .gitignore file in your java project because there are many unwanted files that we might not 
+	want to show in our repository
+
+Answer 2: the process where, git will point the head of the master branch to the latest commit of the branch we are on.
+
+Answer 3: In real world projects, work always happens in parallel and not everyone will work on the same things at the same time,
+	this why it is important to divide the work and each different developer will work on different modules of the code on 	
+	different branches.
+
+Answer 4: If it's a real world project with multiple team members, the number of remote repositories can be multiple.
